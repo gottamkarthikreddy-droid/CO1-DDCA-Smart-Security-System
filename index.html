@@ -106,7 +106,7 @@
       background-image:
         linear-gradient(rgba(94, 220, 244, 0.07) 1px, transparent 1px),
         linear-gradient(90deg, rgba(94, 220, 244, 0.07) 1px, transparent 1px);
-      background-size: 40px 40px;
+      background-size: 1px 1px;
     }
 
     .bg-grid-pink {
@@ -147,7 +147,7 @@
       height: 4px;
       background: var(--neon-cyan);
       opacity: 0.6;
-      animation: twinkle 3s infinite ease-in-out;
+      animation: twinkle 4s infinite ease-in-out;
     }
 
     .starfield .star:nth-child(2n) { background: var(--neon-yellow); }
@@ -155,7 +155,7 @@
     .starfield .star:nth-child(4n) { width: 6px; height: 6px; }
 
     @keyframes twinkle {
-      0%, 100% { opacity: 0.3; transform: scale(1); }
+      0%, 100% { opacity: 0.1; transform: scale(1); }
       50% { opacity: 0.9; transform: scale(1.3); }
     }
 
@@ -412,10 +412,10 @@
       font-family: var(--font-body);
       font-size: clamp(0.9rem, 1.5vw, 1.2rem);
       color: rgba(255,255,255,0.7);
-      max-width: 800px;
+      max-width: 600px;
       text-align: center;
       margin-top: 2rem;
-      line-height: 1.8;
+      line-height: 1.5;
     }
 
     .hero-badges {
@@ -1124,12 +1124,12 @@
       <div class="slide-content" style="z-index:10;">
         <div class="hero-subtitle">Smart Security System Using Logisim </div>
         <h1 class="pixel-hero-text" style="text-align:center;">Visualised<br> and <br> Implemented</h1>
-        <p class="hero-tagline">Made by group - 1:</p>
+    
         <p class="hero-tagline">2620030056 - Karthik Reddy ; 2620030109 - Sai Bhargav ; 26200XXXXX - XXXXXXXXXXXXXX  26200XXXXX - XXXXXXXXXXXXXX  26200XXXXX - XXXXXXXXXXXXXX  26200XXXXX - XXXXXXXXXXXXXX</p>
         
         <div class="hero-badges">
           <span class="hero-badge">Group - 1</span>
-          <span class="hero-badge"></span>
+          <span class="hero-badge">Logisim and Camera</span>
           <span class="hero-badge">Zero Dependencies</span>
         </div>
       </div>
@@ -1200,6 +1200,7 @@
           <div class="pixel-chart-title">
             <span class="pixel-label">Analytics Core</span>
             <h2>Quarterly Growth Metrics</h2>
+            
             <p class="subtitle">Fiscal performance across four sectors &mdash; normalized index</p>
           </div>
           <div class="pixel-bar-chart" id="barChart">
@@ -1225,7 +1226,7 @@
             </div>
             <div class="chart-bar-group">
               <div class="chart-value" data-value="56">0</div>
-              <div class="chart-bar alt" data-height="56" style="height: 0%;"></div>
+              <div class="chart-bar alt" data-height="56" style="height: 56%;"></div>
               <div class="chart-bar-label">Epsilon</div>
             </div>
           </div>
