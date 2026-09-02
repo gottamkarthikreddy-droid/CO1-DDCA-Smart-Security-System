@@ -18,7 +18,7 @@ export function TitleSlide() {
         <div className="glass glow-blue mb-8 inline-flex items-center gap-2 rounded-full px-4 py-1.5">
           <ShieldCheck className="size-4 text-neon-emerald" />
           <span className="font-mono text-xs uppercase tracking-[0.28em] text-foreground/80">
-            Computer Vision · Digital Logic
+            Computer Vision · Digital Test
           </span>
         </div>
       </SlideItem>
