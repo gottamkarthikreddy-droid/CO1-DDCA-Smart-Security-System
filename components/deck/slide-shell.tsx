@@ -66,11 +66,11 @@ export function SlideShell({
             </span>
           </div>
           
-      <div className="pointer-events-none absolute right-1 -top-10 z-20 flex items-center gap-2 md:left-12">
-        <span className="size-2 animate-pulse rounded-full bg-neon-emerald shadow-[0_0_10px_var(--neon-emerald)]" />
-        <span className="font-mono text-xs uppercase tracking-[0.28em] text-muted-foreground">
-          DDCA · PythonCV 
-        </span>
+      <div className="mb-4 flex items-center gap-2">
+  <span className="size-2 animate-pulse rounded-full bg-neon-emerald shadow-[0_0_10px_var(--neon-emerald)]" />
+  <span className="font-mono text-xs uppercase tracking-[0.28em] text-muted-foreground">
+    DDCA · PythonCV
+  </span>
       </div>
         </SlideItem>
         {children}

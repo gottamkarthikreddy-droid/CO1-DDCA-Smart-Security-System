@@ -22,21 +22,21 @@ const steps = [
   },
   {
     icon: Cable,
-    label: "GPIO / Serial",
+    label: "Code Logic",
     tag: "bridge",
     detail:
       "When motion persists past a debounce window, Python writes a single logic-high byte over pySerial (or toggles a GPIO pin) — the handoff from software to hardware.",
   },
   {
     icon: CircuitBoard,
-    label: "Digital Logic Controller",
+    label: "Logic To Input Converter",
     tag: "logisim",
     detail:
       "In Logisim, the incoming signal is synchronized to a clock, gated by an ARM/DISARM enable, and captured by an SR latch so a momentary pulse becomes a held alarm state.",
   },
   {
     icon: Siren,
-    label: "Alarm Actuator",
+    label: "Alarm Noise",
     tag: "output",
     detail:
       "The latched output drives a buzzer/LED bank. It stays asserted until an operator presses RESET, guaranteeing no event is silently missed.",

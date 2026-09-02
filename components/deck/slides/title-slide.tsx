@@ -6,9 +6,9 @@ import { SlideItem } from "../slide-shell"
 
 const meta = [
   { label: "Course", value: "Digital Design & Computer Architecture" },
-  { label: "Student", value: "Alex Rivera · ID 2024-CE-0117" },
-  { label: "Instructor", value: "Dr. M. Okonkwo" },
-  { label: "Term", value: "Fall 2026 · Capstone" },
+  { label: "Group - 1", value: "2620030013 2620030048 2620030056 2620030089 2620030109" },
+  { label: "Instructor", value: "Dayarnab Baidya" },
+  { label: "Term", value: "Y-2026 Trimester-1" },
 ]
 
 export function TitleSlide() {
@@ -18,7 +18,7 @@ export function TitleSlide() {
         <div className="glass glow-blue mb-8 inline-flex items-center gap-2 rounded-full px-4 py-1.5">
           <ShieldCheck className="size-4 text-neon-emerald" />
           <span className="font-mono text-xs uppercase tracking-[0.28em] text-foreground/80">
-            Embedded Vision · Digital Logic
+            Computer Vision · Digital Logic
           </span>
         </div>
       </SlideItem>
@@ -27,16 +27,15 @@ export function TitleSlide() {
         <h1 className="text-balance text-5xl font-bold leading-[1.05] tracking-tight md:text-7xl">
           Smart Security System
           <span className="mt-2 block bg-gradient-to-r from-neon-blue via-neon-blue to-neon-emerald bg-clip-text text-transparent">
-            Python CV × Logisim
+            Python CV x Logisim
           </span>
         </h1>
       </SlideItem>
 
       <SlideItem>
         <p className="mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-muted-foreground">
-          A motion-aware alarm pipeline where OpenCV interprets a live video
-          feed and hands a clean digital trigger to a hardware logic controller
-          designed in Logisim.
+          An Open-CV powered camera input made using combinational logic simulated in Logisim. The camera
+          makes an alarm noise when armed and when motion is detected.
         </p>
       </SlideItem>
 

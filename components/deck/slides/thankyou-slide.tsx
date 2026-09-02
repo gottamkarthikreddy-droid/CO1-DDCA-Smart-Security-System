@@ -4,11 +4,11 @@ import { SlideItem } from "../slide-shell"
 
 // Replace these with the team's real roll numbers.
 const team = [
-  { roll: "22K-4501", name: "Member 1" },
-  { roll: "22K-4527", name: "Member 2" },
-  { roll: "22K-4560", name: "Member 3" },
-  { roll: "22K-4588", name: "Member 4" },
-  { roll: "22K-4602", name: "Member 5" },
+  { roll: "2620030013", name: "Rithvika Nagasri" },
+  { roll: "2620030048", name: "Lokesh Kumar" },
+  { roll: "2620030056", name: "Karthik Reddy" },
+  { roll: "2620030089", name: "Manideep " },
+  { roll: "2620030109", name: "Jalla Sai Bhargav" },
 ]
 
 export function ThankYouSlide() {
@@ -16,13 +16,12 @@ export function ThankYouSlide() {
     <div>
       <SlideItem>
         <h2 className="text-balance text-4xl font-bold tracking-tight md:text-6xl">
-          Thank <span className="text-neon-emerald text-glow-emerald">You</span>
+         <span className="text-neon-emerald text-glow-emerald">Thank You </span>
         </h2>
       </SlideItem>
       <SlideItem>
         <p className="mt-3 max-w-2xl text-muted-foreground">
-          Presented by our team for the Digital Design &amp; Computer
-          Architecture project.
+          Presented by our team for the DDCA project.
         </p>
       </SlideItem>
 
@@ -46,7 +45,7 @@ export function ThankYouSlide() {
 
       <SlideItem className="mt-10">
         <p className="text-center font-mono text-xs uppercase tracking-[0.28em] text-muted-foreground">
-          Digital Design &amp; Computer Architecture · Secure-Vision
+          Digital Design &amp; Computer Architecture · PythonCV
         </p>
       </SlideItem>
     </div>
